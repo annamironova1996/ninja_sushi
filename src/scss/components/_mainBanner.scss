@@ -1,0 +1,33 @@
+.main-banner {
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+
+    img {
+        max-width: 100%;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+}
+
+.main-banner__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    max-width: 500px;
+    text-align: left;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 70px;
+    h2 {
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    button {
+        max-width: 300px;
+    }
+}
